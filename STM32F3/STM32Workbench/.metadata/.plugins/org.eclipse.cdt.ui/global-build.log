@@ -1,0 +1,595 @@
+14:41:37 **** Clean-only build of configuration Debug for project STM32_F303K8_01_Blink ****
+make -j4 clean 
+rm -rf *
+ 
+14:41:39 **** Build of configuration Debug for project STM32_F303K8_01_Blink ****
+make -j4 all 
+Building file: ../startup/startup_stm32f303x8.s
+Building file: ../src/GPIO_methods.c
+Building file: ../src/main.c
+Invoking: MCU GCC Assembler
+Invoking: MCU GCC Compiler
+Building file: ../src/stm32f3xx_it.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -g -o "startup/startup_stm32f303x8.o" "../startup/startup_stm32f303x8.s"
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/GPIO_methods.d" -MT"src/GPIO_methods.o" -o "src/GPIO_methods.o" "../src/GPIO_methods.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/stm32f3xx_it.d" -MT"src/stm32f3xx_it.o" -o "src/stm32f3xx_it.o" "../src/stm32f3xx_it.c"
+Finished building: ../startup/startup_stm32f303x8.s
+ 
+Building file: ../src/syscalls.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/syscalls.d" -MT"src/syscalls.o" -o "src/syscalls.o" "../src/syscalls.c"
+../src/GPIO_methods.c:132:6: warning: 'przyciskDioda' defined but not used [-Wunused-function]
+ void przyciskDioda(void){
+      ^~~~~~~~~~~~~
+../src/GPIO_methods.c:104:6: warning: 'buttonInit' defined but not used [-Wunused-function]
+ void buttonInit(void) {
+      ^~~~~~~~~~
+../src/GPIO_methods.c:91:6: warning: 'blinkWritePin' defined but not used [-Wunused-function]
+ void blinkWritePin(int delaySet, int delayReset) {
+      ^~~~~~~~~~~~~
+../src/GPIO_methods.c:79:6: warning: 'blinkToggle' defined but not used [-Wunused-function]
+ void blinkToggle(int delay) {
+      ^~~~~~~~~~~
+../src/GPIO_methods.c:51:6: warning: 'blinkInit' defined but not used [-Wunused-function]
+ void blinkInit(void) {
+      ^~~~~~~~~
+In file included from ../src/main.c:2:0:
+../src/GPIO_methods.c:132:6: warning: 'przyciskDioda' defined but not used [-Wunused-function]
+ void przyciskDioda(void){
+      ^~~~~~~~~~~~~
+../src/GPIO_methods.c:104:6: warning: 'buttonInit' defined but not used [-Wunused-function]
+ void buttonInit(void) {
+      ^~~~~~~~~~
+../src/GPIO_methods.c:91:6: warning: 'blinkWritePin' defined but not used [-Wunused-function]
+ void blinkWritePin(int delaySet, int delayReset) {
+      ^~~~~~~~~~~~~
+../src/GPIO_methods.c:79:6: warning: 'blinkToggle' defined but not used [-Wunused-function]
+ void blinkToggle(int delay) {
+      ^~~~~~~~~~~
+../src/GPIO_methods.c:51:6: warning: 'blinkInit' defined but not used [-Wunused-function]
+ void blinkInit(void) {
+      ^~~~~~~~~
+Finished building: ../src/syscalls.c
+ 
+Finished building: ../src/main.c
+Finished building: ../src/GPIO_methods.c
+Finished building: ../src/stm32f3xx_it.c
+Building file: ../src/system_stm32f3xx.c
+ 
+ 
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f3xx_hal.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_adc.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_adc_ex.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/system_stm32f3xx.d" -MT"src/system_stm32f3xx.o" -o "src/system_stm32f3xx.o" "../src/system_stm32f3xx.c"
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal.d" -MT"HAL_Driver/Src/stm32f3xx_hal.o" -o "HAL_Driver/Src/stm32f3xx_hal.o" "../HAL_Driver/Src/stm32f3xx_hal.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_adc.d" -MT"HAL_Driver/Src/stm32f3xx_hal_adc.o" -o "HAL_Driver/Src/stm32f3xx_hal_adc.o" "../HAL_Driver/Src/stm32f3xx_hal_adc.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_adc_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_adc_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_adc_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_adc_ex.c"
+Finished building: ../src/system_stm32f3xx.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_cec.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_adc.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal.c
+Invoking: MCU GCC Compiler
+ 
+ 
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_cec.d" -MT"HAL_Driver/Src/stm32f3xx_hal_cec.o" -o "HAL_Driver/Src/stm32f3xx_hal_cec.o" "../HAL_Driver/Src/stm32f3xx_hal_cec.c"
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_comp.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_cortex.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_comp.d" -MT"HAL_Driver/Src/stm32f3xx_hal_comp.o" -o "HAL_Driver/Src/stm32f3xx_hal_comp.o" "../HAL_Driver/Src/stm32f3xx_hal_comp.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_cortex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_cortex.o" -o "HAL_Driver/Src/stm32f3xx_hal_cortex.o" "../HAL_Driver/Src/stm32f3xx_hal_cortex.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_adc_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_crc.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_crc.d" -MT"HAL_Driver/Src/stm32f3xx_hal_crc.o" -o "HAL_Driver/Src/stm32f3xx_hal_crc.o" "../HAL_Driver/Src/stm32f3xx_hal_crc.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_cec.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_crc_ex.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_comp.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_cortex.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_crc_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_crc_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_crc_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_crc_ex.c"
+ 
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_dac.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_dac_ex.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_dac.d" -MT"HAL_Driver/Src/stm32f3xx_hal_dac.o" -o "HAL_Driver/Src/stm32f3xx_hal_dac.o" "../HAL_Driver/Src/stm32f3xx_hal_dac.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_dac_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_dac_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_dac_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_dac_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_crc.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_dma.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_dma.d" -MT"HAL_Driver/Src/stm32f3xx_hal_dma.o" -o "HAL_Driver/Src/stm32f3xx_hal_dma.o" "../HAL_Driver/Src/stm32f3xx_hal_dma.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_crc_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_flash.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_dac.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_dac_ex.c
+ 
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_flash.d" -MT"HAL_Driver/Src/stm32f3xx_hal_flash.o" -o "HAL_Driver/Src/stm32f3xx_hal_flash.o" "../HAL_Driver/Src/stm32f3xx_hal_flash.c"
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_gpio.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_flash_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_flash_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_flash_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_flash_ex.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_gpio.d" -MT"HAL_Driver/Src/stm32f3xx_hal_gpio.o" -o "HAL_Driver/Src/stm32f3xx_hal_gpio.o" "../HAL_Driver/Src/stm32f3xx_hal_gpio.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_dma.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_hrtim.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_hrtim.d" -MT"HAL_Driver/Src/stm32f3xx_hal_hrtim.o" -o "HAL_Driver/Src/stm32f3xx_hal_hrtim.o" "../HAL_Driver/Src/stm32f3xx_hal_hrtim.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_flash.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_i2c.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_gpio.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_i2c.d" -MT"HAL_Driver/Src/stm32f3xx_hal_i2c.o" -o "HAL_Driver/Src/stm32f3xx_hal_i2c.o" "../HAL_Driver/Src/stm32f3xx_hal_i2c.c"
+ 
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_i2s.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_i2c_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_i2c_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_i2c_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_i2s.d" -MT"HAL_Driver/Src/stm32f3xx_hal_i2s.o" -o "HAL_Driver/Src/stm32f3xx_hal_i2s.o" "../HAL_Driver/Src/stm32f3xx_hal_i2s.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_hrtim.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_i2s_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_i2s_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_i2s_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_i2s_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_i2s_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_i2s.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_i2c.c
+ 
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_irda.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_iwdg.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_msp_template.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_irda.d" -MT"HAL_Driver/Src/stm32f3xx_hal_irda.o" -o "HAL_Driver/Src/stm32f3xx_hal_irda.o" "../HAL_Driver/Src/stm32f3xx_hal_irda.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_iwdg.d" -MT"HAL_Driver/Src/stm32f3xx_hal_iwdg.o" -o "HAL_Driver/Src/stm32f3xx_hal_iwdg.o" "../HAL_Driver/Src/stm32f3xx_hal_iwdg.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_msp_template.d" -MT"HAL_Driver/Src/stm32f3xx_hal_msp_template.o" -o "HAL_Driver/Src/stm32f3xx_hal_msp_template.o" "../HAL_Driver/Src/stm32f3xx_hal_msp_template.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_i2s_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_nand.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_nand.d" -MT"HAL_Driver/Src/stm32f3xx_hal_nand.o" -o "HAL_Driver/Src/stm32f3xx_hal_nand.o" "../HAL_Driver/Src/stm32f3xx_hal_nand.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_iwdg.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_irda.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_nor.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_msp_template.c
+ 
+Invoking: MCU GCC Compiler
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_opamp.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_opamp_ex.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_nor.d" -MT"HAL_Driver/Src/stm32f3xx_hal_nor.o" -o "HAL_Driver/Src/stm32f3xx_hal_nor.o" "../HAL_Driver/Src/stm32f3xx_hal_nor.c"
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_opamp_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_opamp_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_opamp_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_opamp_ex.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_opamp.d" -MT"HAL_Driver/Src/stm32f3xx_hal_opamp.o" -o "HAL_Driver/Src/stm32f3xx_hal_opamp.o" "../HAL_Driver/Src/stm32f3xx_hal_opamp.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_nand.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_pccard.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_pccard.d" -MT"HAL_Driver/Src/stm32f3xx_hal_pccard.o" -o "HAL_Driver/Src/stm32f3xx_hal_pccard.o" "../HAL_Driver/Src/stm32f3xx_hal_pccard.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_nor.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_opamp_ex.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_pcd.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_pcd.d" -MT"HAL_Driver/Src/stm32f3xx_hal_pcd.o" -o "HAL_Driver/Src/stm32f3xx_hal_pcd.o" "../HAL_Driver/Src/stm32f3xx_hal_pcd.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_opamp.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_pcd_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_pcd_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_pcd_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c"
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_pwr.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_pwr.d" -MT"HAL_Driver/Src/stm32f3xx_hal_pwr.o" -o "HAL_Driver/Src/stm32f3xx_hal_pwr.o" "../HAL_Driver/Src/stm32f3xx_hal_pwr.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_pccard.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_pcd.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_pwr_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_pwr_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_pwr_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_rcc.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_rcc.d" -MT"HAL_Driver/Src/stm32f3xx_hal_rcc.o" -o "HAL_Driver/Src/stm32f3xx_hal_rcc.o" "../HAL_Driver/Src/stm32f3xx_hal_rcc.c"
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_pwr.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_rcc_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_rcc_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_rcc_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c"
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_rtc.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_rtc.d" -MT"HAL_Driver/Src/stm32f3xx_hal_rtc.o" -o "HAL_Driver/Src/stm32f3xx_hal_rtc.o" "../HAL_Driver/Src/stm32f3xx_hal_rtc.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_rtc_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_rtc_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_rtc_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_rtc_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_rtc_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_rcc.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_sdadc.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_smartcard.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_sdadc.d" -MT"HAL_Driver/Src/stm32f3xx_hal_sdadc.o" -o "HAL_Driver/Src/stm32f3xx_hal_sdadc.o" "../HAL_Driver/Src/stm32f3xx_hal_sdadc.c"
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_smartcard.d" -MT"HAL_Driver/Src/stm32f3xx_hal_smartcard.o" -o "HAL_Driver/Src/stm32f3xx_hal_smartcard.o" "../HAL_Driver/Src/stm32f3xx_hal_smartcard.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_rtc.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_smartcard_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_smartcard_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_smartcard_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_smartcard_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_smartcard_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_rtc_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_smbus.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_sdadc.c
+Invoking: MCU GCC Compiler
+ 
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_smbus.d" -MT"HAL_Driver/Src/stm32f3xx_hal_smbus.o" -o "HAL_Driver/Src/stm32f3xx_hal_smbus.o" "../HAL_Driver/Src/stm32f3xx_hal_smbus.c"
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_spi.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_smartcard.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_spi.d" -MT"HAL_Driver/Src/stm32f3xx_hal_spi.o" -o "HAL_Driver/Src/stm32f3xx_hal_spi.o" "../HAL_Driver/Src/stm32f3xx_hal_spi.c"
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_spi_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_spi_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_spi_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_spi_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_spi_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_smartcard_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_sram.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_sram.d" -MT"HAL_Driver/Src/stm32f3xx_hal_sram.o" -o "HAL_Driver/Src/stm32f3xx_hal_sram.o" "../HAL_Driver/Src/stm32f3xx_hal_sram.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_smbus.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_tim.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_spi.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_spi_ex.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_tim.d" -MT"HAL_Driver/Src/stm32f3xx_hal_tim.o" -o "HAL_Driver/Src/stm32f3xx_hal_tim.o" "../HAL_Driver/Src/stm32f3xx_hal_tim.c"
+ 
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_tsc.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_tim_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_tim_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_tim_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_tim_ex.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_tsc.d" -MT"HAL_Driver/Src/stm32f3xx_hal_tsc.o" -o "HAL_Driver/Src/stm32f3xx_hal_tsc.o" "../HAL_Driver/Src/stm32f3xx_hal_tsc.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_sram.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_uart.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_uart.d" -MT"HAL_Driver/Src/stm32f3xx_hal_uart.o" -o "HAL_Driver/Src/stm32f3xx_hal_uart.o" "../HAL_Driver/Src/stm32f3xx_hal_uart.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_tim.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_tsc.c
+ 
+ 
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_uart_ex.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_usart.c
+Building file: ../HAL_Driver/Src/stm32f3xx_hal_wwdg.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_uart_ex.d" -MT"HAL_Driver/Src/stm32f3xx_hal_uart_ex.o" -o "HAL_Driver/Src/stm32f3xx_hal_uart_ex.o" "../HAL_Driver/Src/stm32f3xx_hal_uart_ex.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_usart.d" -MT"HAL_Driver/Src/stm32f3xx_hal_usart.o" -o "HAL_Driver/Src/stm32f3xx_hal_usart.o" "../HAL_Driver/Src/stm32f3xx_hal_usart.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_hal_wwdg.d" -MT"HAL_Driver/Src/stm32f3xx_hal_wwdg.o" -o "HAL_Driver/Src/stm32f3xx_hal_wwdg.o" "../HAL_Driver/Src/stm32f3xx_hal_wwdg.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_uart.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_adc.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_adc.d" -MT"HAL_Driver/Src/stm32f3xx_ll_adc.o" -o "HAL_Driver/Src/stm32f3xx_ll_adc.o" "../HAL_Driver/Src/stm32f3xx_ll_adc.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_uart_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_comp.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_wwdg.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_hal_usart.c
+Invoking: MCU GCC Compiler
+ 
+ 
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_crc.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_comp.d" -MT"HAL_Driver/Src/stm32f3xx_ll_comp.o" -o "HAL_Driver/Src/stm32f3xx_ll_comp.o" "../HAL_Driver/Src/stm32f3xx_ll_comp.c"
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_dac.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_crc.d" -MT"HAL_Driver/Src/stm32f3xx_ll_crc.o" -o "HAL_Driver/Src/stm32f3xx_ll_crc.o" "../HAL_Driver/Src/stm32f3xx_ll_crc.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_dac.d" -MT"HAL_Driver/Src/stm32f3xx_ll_dac.o" -o "HAL_Driver/Src/stm32f3xx_ll_dac.o" "../HAL_Driver/Src/stm32f3xx_ll_dac.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_adc.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_dma.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_dma.d" -MT"HAL_Driver/Src/stm32f3xx_ll_dma.o" -o "HAL_Driver/Src/stm32f3xx_ll_dma.o" "../HAL_Driver/Src/stm32f3xx_ll_dma.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_comp.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_exti.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_crc.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_dac.c
+Invoking: MCU GCC Compiler
+ 
+ 
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_exti.d" -MT"HAL_Driver/Src/stm32f3xx_ll_exti.o" -o "HAL_Driver/Src/stm32f3xx_ll_exti.o" "../HAL_Driver/Src/stm32f3xx_ll_exti.c"
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_fmc.c
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_gpio.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_fmc.d" -MT"HAL_Driver/Src/stm32f3xx_ll_fmc.o" -o "HAL_Driver/Src/stm32f3xx_ll_fmc.o" "../HAL_Driver/Src/stm32f3xx_ll_fmc.c"
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_gpio.d" -MT"HAL_Driver/Src/stm32f3xx_ll_gpio.o" -o "HAL_Driver/Src/stm32f3xx_ll_gpio.o" "../HAL_Driver/Src/stm32f3xx_ll_gpio.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_dma.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_hrtim.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_hrtim.d" -MT"HAL_Driver/Src/stm32f3xx_ll_hrtim.o" -o "HAL_Driver/Src/stm32f3xx_ll_hrtim.o" "../HAL_Driver/Src/stm32f3xx_ll_hrtim.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_exti.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_gpio.c
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_i2c.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_opamp.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_i2c.d" -MT"HAL_Driver/Src/stm32f3xx_ll_i2c.o" -o "HAL_Driver/Src/stm32f3xx_ll_i2c.o" "../HAL_Driver/Src/stm32f3xx_ll_i2c.c"
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_opamp.d" -MT"HAL_Driver/Src/stm32f3xx_ll_opamp.o" -o "HAL_Driver/Src/stm32f3xx_ll_opamp.o" "../HAL_Driver/Src/stm32f3xx_ll_opamp.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_fmc.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_hrtim.c
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_pwr.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_rcc.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_pwr.d" -MT"HAL_Driver/Src/stm32f3xx_ll_pwr.o" -o "HAL_Driver/Src/stm32f3xx_ll_pwr.o" "../HAL_Driver/Src/stm32f3xx_ll_pwr.c"
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_rcc.d" -MT"HAL_Driver/Src/stm32f3xx_ll_rcc.o" -o "HAL_Driver/Src/stm32f3xx_ll_rcc.o" "../HAL_Driver/Src/stm32f3xx_ll_rcc.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_i2c.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_opamp.c
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_rtc.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_spi.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_rtc.d" -MT"HAL_Driver/Src/stm32f3xx_ll_rtc.o" -o "HAL_Driver/Src/stm32f3xx_ll_rtc.o" "../HAL_Driver/Src/stm32f3xx_ll_rtc.c"
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_spi.d" -MT"HAL_Driver/Src/stm32f3xx_ll_spi.o" -o "HAL_Driver/Src/stm32f3xx_ll_spi.o" "../HAL_Driver/Src/stm32f3xx_ll_spi.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_pwr.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_rcc.c
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_tim.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_usart.c
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_tim.d" -MT"HAL_Driver/Src/stm32f3xx_ll_tim.o" -o "HAL_Driver/Src/stm32f3xx_ll_tim.o" "../HAL_Driver/Src/stm32f3xx_ll_tim.c"
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_usart.d" -MT"HAL_Driver/Src/stm32f3xx_ll_usart.o" -o "HAL_Driver/Src/stm32f3xx_ll_usart.o" "../HAL_Driver/Src/stm32f3xx_ll_usart.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_rtc.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_spi.c
+ 
+ 
+Building file: ../HAL_Driver/Src/stm32f3xx_ll_utils.c
+Building file: ../HAL_Driver/Src/stm32f3xx_nucleo_32.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_ll_utils.d" -MT"HAL_Driver/Src/stm32f3xx_ll_utils.o" -o "HAL_Driver/Src/stm32f3xx_ll_utils.o" "../HAL_Driver/Src/stm32f3xx_ll_utils.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f3xx_nucleo_32.d" -MT"HAL_Driver/Src/stm32f3xx_nucleo_32.o" -o "HAL_Driver/Src/stm32f3xx_nucleo_32.o" "../HAL_Driver/Src/stm32f3xx_nucleo_32.c"
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_tim.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_usart.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f3xx_nucleo_32.c
+Finished building: ../HAL_Driver/Src/stm32f3xx_ll_utils.c
+ 
+ 
+Building target: STM32_F303K8_01_Blink.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "STM32_F303K8_01_Blink.elf" @"objects.list"   -lm
+Finished building target: STM32_F303K8_01_Blink.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32_F303K8_01_Blink.elf" "STM32_F303K8_01_Blink.bin"
+arm-none-eabi-size "STM32_F303K8_01_Blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7576	   1096	   1684	  10356	   2874	STM32_F303K8_01_Blink.elf
+ 
+14:42:58 **** Incremental Build of configuration Debug for project STM32_F303K8_01_Blink ****
+make -j4 all 
+make: Nothing to be done for 'all'.
+14:45:36 **** Incremental Build of configuration Debug for project STM32_F303K8_01_Blink ****
+make -j4 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:30:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+../src/main.c:5:25: warning: 'GPIO_InitStruct' defined but not used [-Wunused-variable]
+ static GPIO_InitTypeDef GPIO_InitStruct;
+                         ^~~~~~~~~~~~~~~
+In file included from ../src/main.c:2:0:
+../src/GPIO_methods.c:104:6: warning: 'buttonInit' defined but not used [-Wunused-function]
+ void buttonInit(void) {
+      ^~~~~~~~~~
+../src/GPIO_methods.c:91:6: warning: 'blinkWritePin' defined but not used [-Wunused-function]
+ void blinkWritePin(int delaySet, int delayReset) {
+      ^~~~~~~~~~~~~
+../src/GPIO_methods.c:79:6: warning: 'blinkToggle' defined but not used [-Wunused-function]
+ void blinkToggle(int delay) {
+      ^~~~~~~~~~~
+../src/GPIO_methods.c:51:6: warning: 'blinkInit' defined but not used [-Wunused-function]
+ void blinkInit(void) {
+      ^~~~~~~~~
+src/subdir.mk:30: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+14:45:54 **** Incremental Build of configuration Debug for project STM32_F303K8_01_Blink ****
+make -j4 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:5:25: warning: 'GPIO_InitStruct' defined but not used [-Wunused-variable]
+ static GPIO_InitTypeDef GPIO_InitStruct;
+                         ^~~~~~~~~~~~~~~
+In file included from ../src/main.c:2:0:
+../src/GPIO_methods.c:104:6: warning: 'buttonInit' defined but not used [-Wunused-function]
+ void buttonInit(void) {
+      ^~~~~~~~~~
+../src/GPIO_methods.c:91:6: warning: 'blinkWritePin' defined but not used [-Wunused-function]
+ void blinkWritePin(int delaySet, int delayReset) {
+      ^~~~~~~~~~~~~
+../src/GPIO_methods.c:79:6: warning: 'blinkToggle' defined but not used [-Wunused-function]
+ void blinkToggle(int delay) {
+      ^~~~~~~~~~~
+../src/GPIO_methods.c:51:6: warning: 'blinkInit' defined but not used [-Wunused-function]
+ void blinkInit(void) {
+      ^~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: STM32_F303K8_01_Blink.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "STM32_F303K8_01_Blink.elf" @"objects.list"   -lm
+Finished building target: STM32_F303K8_01_Blink.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32_F303K8_01_Blink.elf" "STM32_F303K8_01_Blink.bin"
+arm-none-eabi-size "STM32_F303K8_01_Blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7636	   1096	   1684	  10416	   28b0	STM32_F303K8_01_Blink.elf
+ 
+14:46:41 **** Incremental Build of configuration Debug for project STM32_F303K8_01_Blink ****
+make -j4 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:2:0:
+../src/GPIO_methods.c:132:6: warning: 'przyciskDioda' defined but not used [-Wunused-function]
+ void przyciskDioda(void){
+      ^~~~~~~~~~~~~
+../src/GPIO_methods.c:104:6: warning: 'buttonInit' defined but not used [-Wunused-function]
+ void buttonInit(void) {
+      ^~~~~~~~~~
+../src/GPIO_methods.c:91:6: warning: 'blinkWritePin' defined but not used [-Wunused-function]
+ void blinkWritePin(int delaySet, int delayReset) {
+      ^~~~~~~~~~~~~
+../src/GPIO_methods.c:79:6: warning: 'blinkToggle' defined but not used [-Wunused-function]
+ void blinkToggle(int delay) {
+      ^~~~~~~~~~~
+../src/GPIO_methods.c:51:6: warning: 'blinkInit' defined but not used [-Wunused-function]
+ void blinkInit(void) {
+      ^~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: STM32_F303K8_01_Blink.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "STM32_F303K8_01_Blink.elf" @"objects.list"   -lm
+Finished building target: STM32_F303K8_01_Blink.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32_F303K8_01_Blink.elf" "STM32_F303K8_01_Blink.bin"
+arm-none-eabi-size "STM32_F303K8_01_Blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7576	   1096	   1684	  10356	   2874	STM32_F303K8_01_Blink.elf
+ 

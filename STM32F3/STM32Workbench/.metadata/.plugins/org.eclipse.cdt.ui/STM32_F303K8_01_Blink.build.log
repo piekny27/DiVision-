@@ -1,0 +1,39 @@
+14:46:41 **** Incremental Build of configuration Debug for project STM32_F303K8_01_Blink ****
+make -j4 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F3 -DSTM32F30 -DSTM32F303K8Tx -DNUCLEO_F303K8 -DDEBUG -DSTM32F303x8 -DUSE_HAL_DRIVER -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc/Legacy" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/inc" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/device" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/CMSIS/core" -I"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:2:0:
+../src/GPIO_methods.c:132:6: warning: 'przyciskDioda' defined but not used [-Wunused-function]
+ void przyciskDioda(void){
+      ^~~~~~~~~~~~~
+../src/GPIO_methods.c:104:6: warning: 'buttonInit' defined but not used [-Wunused-function]
+ void buttonInit(void) {
+      ^~~~~~~~~~
+../src/GPIO_methods.c:91:6: warning: 'blinkWritePin' defined but not used [-Wunused-function]
+ void blinkWritePin(int delaySet, int delayReset) {
+      ^~~~~~~~~~~~~
+../src/GPIO_methods.c:79:6: warning: 'blinkToggle' defined but not used [-Wunused-function]
+ void blinkToggle(int delay) {
+      ^~~~~~~~~~~
+../src/GPIO_methods.c:51:6: warning: 'blinkInit' defined but not used [-Wunused-function]
+ void blinkInit(void) {
+      ^~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: STM32_F303K8_01_Blink.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "STM32_F303K8_01_Blink.elf" @"objects.list"   -lm
+Finished building target: STM32_F303K8_01_Blink.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32_F303K8_01_Blink.elf" "STM32_F303K8_01_Blink.bin"
+arm-none-eabi-size "STM32_F303K8_01_Blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7576	   1096	   1684	  10356	   2874	STM32_F303K8_01_Blink.elf
+ 
+
+14:46:47 Build Finished (took 6s.805ms)
+
