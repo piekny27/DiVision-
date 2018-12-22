@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\PLMAPIE11\Desktop\Raptors\raptors_not_change"/>
+		<item value="C:\Users\PLMAPIE11\Desktop\raptors_not_change"/>
 		<item value="C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink"/>
 	</list>
 </section>
