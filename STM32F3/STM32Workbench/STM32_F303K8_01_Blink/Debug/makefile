@@ -31,10 +31,10 @@ endif
 all: STM32_F303K8_01_Blink.elf
 
 # Tool invocations
-STM32_F303K8_01_Blink.elf: $(OBJS) $(USER_OBJS) C:\Users\PLMAPIE11\Desktop\Raptors\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink/LinkerScript.ld
+STM32_F303K8_01_Blink.elf: $(OBJS) $(USER_OBJS) C:\Users\PLMAPIE11\Desktop\DiVision\DiVision-\STM32F3\STM32Workbench\STM32_F303K8_01_Blink/LinkerScript.ld
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU GCC Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/PLMAPIE11/Desktop/Raptors/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "STM32_F303K8_01_Blink.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"C:/Users/PLMAPIE11/Desktop/DiVision/DiVision-/STM32F3/STM32Workbench/STM32_F303K8_01_Blink/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "STM32_F303K8_01_Blink.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

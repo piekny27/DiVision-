@@ -19,6 +19,7 @@ int main(void) {
 
 		/* This function configures the Flash prefetch, configures time base source, NVIC and Low level hardware */
 			HAL_Init();
+			SystemInit();
 
 			/* Configure the system clock to 64 MHz */
 			SystemClock_Config();
@@ -44,12 +45,6 @@ int main(void) {
 			/*uruchomienie przerwañ zewnêtrznych */
 			HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
 
-
-			while (1) {
-
-
-
-			}
 
 
 
