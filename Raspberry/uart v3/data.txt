@@ -1,0 +1,1 @@
+{"pulseoximeter": {"saturation": "96%", "pule": "60", "temperature": "23C"}, "GPS": {"latitude": "51.737801", "longitude": "19.451736", "date": "02/27/2019", "speed": "0.333360", "satQuantity": "4", "time": "19:04:07", "height": "223.899994", "HDOP": "1.480000", "course": "172.000000"}}
